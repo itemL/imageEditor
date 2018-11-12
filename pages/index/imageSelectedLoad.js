@@ -10,7 +10,7 @@ class ImageUpLoader{
     this.uploadParams= {
       url: '',
         name: 'file',
-          formData: { }
+          formData: {}
     }
     
     this.page = pageContext;

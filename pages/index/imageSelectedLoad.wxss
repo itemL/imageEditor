@@ -1,4 +1,18 @@
 
+.image_uploader_container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.text_uploader_input_box{
+  width: 100%;
+}
+
 .weui-uploader__input-box:before,
 
 .weui-uploader__input-box:after {
