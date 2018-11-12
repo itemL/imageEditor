@@ -1,0 +1,13 @@
+
+<template name="image_uploader">
+  <view class='uploader_container'>
+    
+    <block wx:for="{{uploadedImagesPaths}}">
+      <image class="weui-uploader_image" src="{{item}}" data-src="{{item}}" bindtap="previewImage" mode='aspectFill'><view class='weui-uploader_del' catchtap='deleteImage' data-imagesrc="{{item}}"></view></image>
+    </block>
+    
+    <view class='weui-uploader_container' bindtap="chooseImage">
+     <view class='weui-uploader__input-box'></view>
+    </view>
+  </view>
+</template>

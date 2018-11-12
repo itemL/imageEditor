@@ -1,0 +1,4 @@
+
+<import src="./imageSelectedLoad.wxml" />
+
+<template is="image_uploader" data="{{uploadedImagesPaths}}" />
